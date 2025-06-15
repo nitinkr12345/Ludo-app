@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#board {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  margin-top: 20px;
+  background: #fff;
+}
+
+#dice {
+  font-size: 80px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#turn {
+  font-size: 24px;
+  color: #fff;
+}
